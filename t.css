@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#form2{
+    display: flex;
+    gap:10px;
+}
+
+input{
+    padding: 20px;
+}
+
+#reset{
+   display: block;
+   margin: 50px auto;
+   padding: 20px;
+   border-radius: 8px;
+   background-color: #6A5AF9;
+   outline: none;
+   color:#fff;
+   border:0;
+   cursor: pointer;
+}
